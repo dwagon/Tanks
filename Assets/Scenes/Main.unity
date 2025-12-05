@@ -196,11 +196,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6356956601499761945, guid: 1bc9aad59a33e2540b1452b2d156accb, type: 3}
   m_PrefabInstance: {fileID: 665859900}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &283258174 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-  m_PrefabInstance: {fileID: 521636184}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -480,63 +475,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 504876330673861166, guid: 9c7adef86efa66845b3e57552a342f00, type: 3}
   m_PrefabInstance: {fileID: 606209515}
   m_PrefabAsset: {fileID: 0}
---- !u!1001 &521636184
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 1018956875}
-    m_Modifications:
-    - target: {fileID: 148586, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_Name
-      value: DustTrail_Moon
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 496482, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: daceba43be89eb146a3ed6af99b08c29, type: 3}
 --- !u!4 &523233100 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7181208908421918091, guid: 0925c23a430e8964aa090a5fabe502c3, type: 3}
@@ -1185,11 +1123,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1bc9aad59a33e2540b1452b2d156accb, type: 3}
---- !u!4 &1018956875 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 73385767087760668, guid: c295c90d9c92945c0a54da8f656815be, type: 3}
-  m_PrefabInstance: {fileID: 5278051166649297083}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1117166698
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1729,14 +1662,6 @@ PrefabInstance:
       value: GroundMoon
       objectReference: {fileID: 0}
     - target: {fileID: 3405570721729953850, guid: d90ea149be1e49d49bdb723591b075d0, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3405570721729953850, guid: d90ea149be1e49d49bdb723591b075d0, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 3405570721729953850, guid: d90ea149be1e49d49bdb723591b075d0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 25
       objectReference: {fileID: 0}
@@ -1900,7 +1825,7 @@ GameObject:
   - component: {fileID: 1850372937}
   m_Layer: 0
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2039,10 +1964,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 73385767087760668, guid: c295c90d9c92945c0a54da8f656815be, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 283258174}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c295c90d9c92945c0a54da8f656815be, type: 3}
 --- !u!1660057539 &9223372036854775807

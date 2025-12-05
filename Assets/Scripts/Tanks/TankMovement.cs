@@ -3,14 +3,13 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.Rendering.PostProcessing;
 
-public class Movement : MonoBehaviour
+public class TankMovement : MonoBehaviour
 {
 
     [Header("Movement")]
     [SerializeField] float movementSpeed = 1f;
     [SerializeField] float rotateSpeed = 10f;
-    [Header("Debug")]
-    [SerializeField] GameObject cylinder;
+
     InputAction m_moveAction;
     float rotation;
     float speed;
@@ -26,7 +25,6 @@ public class Movement : MonoBehaviour
     {
         Move();
         Turn();
-
     }
 
     void Turn()
